@@ -22,4 +22,12 @@ public class Calculadora {
 		}
 		return val1 / val2;
 	}
+	
+	public void divideDoisNumeros02(double val1, double val2) {
+		if(val2 == 0) {
+			System.out.println("Não existe divisão por zero");
+			return; //Retorno em função void não passa valores
+		}
+		System.out.println(val1/val2);
+	}
 }
