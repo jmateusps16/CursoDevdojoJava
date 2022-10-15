@@ -35,7 +35,25 @@ public class Calculadora {
 		val1 = 99;
 		val2 = 33;
 		System.out.println("Dentro do alteraDoisNumeros");
-		System.out.println("Val1: "+val1);
-		System.out.println("Val2: "+val2);
+		System.out.println("Val1: " + val1);
+		System.out.println("Val2: " + val2);
+	}
+
+	// manipulação de array
+	public void somaArray(int[] numeros) {
+		int soma = 0;
+		for (int i : numeros) {
+			soma += i;
+		}
+		System.out.println(soma);
+	}
+
+	// usando o VarArgs
+	public void somaVarArgs(int... numeros) {
+		int soma = 0;
+		for (int i : numeros) {
+			soma += i;
+		}
+		System.out.println(soma);
 	}
 }
