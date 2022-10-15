@@ -1,0 +1,7 @@
+package palmeira.mateus.cursoDojo.introducao;
+
+public class Aula08ArraysMultidimensionais02 {
+	public static void main(String[] args) {
+
+	}
+}
