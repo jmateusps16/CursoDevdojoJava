@@ -10,9 +10,7 @@ public class FuncionarioTest01 {
 
 		funcionario.nome = "Araujo";
 		funcionario.idade = 19;
-		funcionario.salario[0]=1000.00;
-		funcionario.salario[1]=2000.00;
-		funcionario.salario[2]=3000.00;
+		funcionario.salarios = new double[] {1000.00,2000,3000};
 		funcionario.imprimeDados(funcionario);
 		funcionario.imprimeMediaSalario(funcionario);
 		
