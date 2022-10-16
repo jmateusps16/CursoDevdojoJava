@@ -15,7 +15,7 @@ public class Funcionario extends Pessoa {
 			System.out.println("Salário não informado");
 		} else {
 			System.out.print("Ultimos Salarios: ");
-			for (double salario : salarios) {
+			for (double salario : this.salarios) {
 				System.out.print(salario + " R$, ");
 			}
 			System.out.println("");
@@ -27,10 +27,10 @@ public class Funcionario extends Pessoa {
 			return;
 		}
 		double media = 0;
-		for (double salario : salarios) {
+		for (double salario : this.salarios) {
 			media += salario;
 		}
-		media /= salarios.length;
+		media /= this.salarios.length;
 		System.out.println("Média dos salários: " + media);
 	}
 
