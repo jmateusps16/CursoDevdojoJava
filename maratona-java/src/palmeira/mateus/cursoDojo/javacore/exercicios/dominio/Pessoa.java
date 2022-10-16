@@ -5,8 +5,7 @@ public class Pessoa {
 	public int idade;
 
 	public void imprimeDados(Pessoa pessoa) {
-		System.out.println("Nome: "+this.nome);
-		System.out.println("Idade: "+this.idade);
+
 	}
 	
 }
